@@ -1,0 +1,7 @@
+myvenv/
+.env
+models/
+models.db
+*.json
+__pycache__/
+.DS_Store

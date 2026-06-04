@@ -1,2 +1,19 @@
+# виртуальные окружения
+myvenv/
 test_venv/
+**/myvenv/
+**/test_venv/
+
+# артефакты ML
+models/
+models.db
+
+# Python / OS
+__pycache__/
+*.py[cod]
 .env
+.DS_Store
+*.json
+
+# вложенные git-репозитории (не пушим .git из подпроектов)
+**/.git/
